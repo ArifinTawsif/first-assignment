@@ -87,6 +87,15 @@ nav{
     text-align: center;
 }
 
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 159px 0 141px;
+}
+.banner-content{
+    max-width: 580px;
+}
+
 .img{
     width: 403px;
     height: 328px;
@@ -94,6 +103,11 @@ nav{
 }
 
 .banner-description{
-    color: #252432;
+    color: #2524328a;
     font-size: 24px;
+}
+
+section div h3{
+    font-size: 42px;
+    font-weight: bold;
 }
