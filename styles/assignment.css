@@ -68,6 +68,7 @@ nav{
 
 .btn2{
     margin-top: 37px;
+    margin-bottom: 152px;
 }
 
 .btn:hover{
@@ -84,4 +85,15 @@ nav{
     margin-right: 150px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+.img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+.banner-description{
+    color: #252432;
+    font-size: 24px;
 }
