@@ -2,7 +2,7 @@ html body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color:rgba(255, 255, 255, 0.16)
+    background-color:rgba(122, 34, 255, 0.045)
 }
 
 
@@ -156,7 +156,7 @@ section div h3 {
     font-size: 38px;
     font-weight: bold;
     color: #252432;
-    margin-bottom: 0%;
+    margin-bottom: 35px;
     margin-top: 0%;
 }
 
@@ -220,6 +220,7 @@ section div h3 {
     border-radius: 15px;
     width: 367px;
     height: 210px;
+    background-color: rgba(255, 255, 255, 0.578);
 
 }
 
@@ -245,14 +246,22 @@ section div h3 {
 .column2{
     padding: 120px 250px;
     display: flex;
-    gap: 115px;
-    justify-content: space-between;
+    gap: 90px;
+    align-items: center;
     margin-left: 0%;
     margin-right: 200px;
     width: 50%;
 }
 
-
+.section3-title{
+    font-size: 5em;
+    color:black;
+    line-height: 1.1;
+    margin: 0;
+    font-weight: bold;
+    margin-right: 40px;
+    margin-left: 0%;
+}
 
 .column input[type="text"], .column input[type="email"], .column textarea{
     height: 64px;
@@ -265,6 +274,7 @@ section div h3 {
     margin-bottom: 20px;
     border: rgba(214, 221, 237, 1);
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.112);
+    margin-top: 0%;
 }
 .btn3{
     height: 64px;
@@ -274,9 +284,40 @@ section div h3 {
     margin-bottom: 20px;
 }
 
-.section3-title{
-    font-size: 97px;
+.column3-title{
     font-weight: bold;
-    margin-left: 0px;
-    margin-right: 20px;
+    font-size: 50px;
+}
+
+.num1, .num2{
+    margin-bottom: 0%;
+}
+
+/* footer */
+
+.footer1{
+    font-size: 150px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: rgba(78, 71, 255, 1);
+}
+
+.footer3 ul {
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin-left: 500px;
+    gap: 50px;
+    margin-bottom: 170px;
+}
+
+.footer3 ul a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
+
+.para{
+    color: rgba(137, 135, 161, 1);
+    margin-top: 0%;
 }
