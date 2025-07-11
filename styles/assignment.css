@@ -1,84 +1,99 @@
-main{
+html body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(255, 255, 255, 0.16)
+}
+
+
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-main section{
+
+main section {
     margin-top: 130px;
 }
 
 /* shared style */
-.inter-black{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.inter-black {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
-    
-.raleway{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  color: #252432;
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #252432;
 }
-.center{
+
+.center {
     display: flex;
     text-align: center;
 
 }
 
-.sec-bg{
+.sec-bg {
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
     width: 1140px;
     height: 260px;
     margin-top: 116px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
 /* header */
-header{
+header {
     background-image: url(../asset/Assets/Hero-bg.png);
 }
 
-body header nav{
+body header nav {
     display: flex;
 }
 
 
 /* nav section */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
     margin-left: 150px;
     margin-right: 150px;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 900;
     font-size: 34px;
     color: #4E47FF;
 }
-.banner-title{
+
+.banner-title {
     font-size: 65px;
     font-weight: bold;
 }
-.line-1{
+
+.line-1 {
     text-align: center;
     font-size: 65px;
     font-weight: bold;
     margin-top: 180px;
 }
-.line-2{
+
+.line-2 {
     text-align: center;
     font-size: 65px;
     font-weight: bold;
 }
 
 /* button section */
-.btn{
+.btn {
     background-color: #4E47FF;
     font-size: 16px;
     font-weight: bold;
@@ -89,20 +104,20 @@ nav{
     cursor: pointer;
 }
 
-.btn2{
+.btn2 {
     margin-top: 37px;
     margin-bottom: 152px;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #4d47ff93;
     transition: 0.3s;
 }
 
 /* banner section */
-.banner{
+.banner {
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
@@ -110,33 +125,34 @@ nav{
     text-align: center;
 }
 
-.banner2{
+.banner2 {
     display: flex;
     justify-content: space-between;
     margin: 116px 159px 0 141px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 580px;
 }
 
-.img{
+.img {
     width: 403px;
     height: 328px;
     border-radius: 48px;
 }
 
-.banner-description{
+.banner-description {
     color: #2524328a;
     font-size: 24px;
 }
 
-section div h3{
+section div h3 {
     font-size: 42px;
     font-weight: bold;
 }
 
 /* section style */
-.section-title{
+.section-title {
     font-size: 38px;
     font-weight: bold;
     color: #252432;
@@ -145,11 +161,12 @@ section div h3{
 }
 
 /* about styles */
-.about{
+.about {
     padding: 60px 20px;
     text-align: center;
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-evenly;
     gap: 120px;
@@ -158,27 +175,28 @@ section div h3{
     margin-bottom: 100px;
 }
 
-.item-title{
+.item-title {
     color: rgba(78, 71, 255, 1);
     font-size: 80px;
     font-weight: bold;
     margin-bottom: 0%;
 }
 
-.item-description{
+.item-description {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
     margin-top: 0%;
 }
+
 /* review section */
-.skill-container{
+.skill-container {
     display: flex;
-    gap:24px;
+    gap: 24px;
 }
 
-.skill-description{
-    padding: 0px ;
+.skill-description {
+    padding: 0px;
     box-shadow: 0px 6px 50px 0px rgba(255, 255, 255, 0.5);
     border-radius: 14px;
     margin-left: 0%;
@@ -187,35 +205,78 @@ section div h3{
     text-align: left;
 
 }
-.logo{
+
+.logo {
     /* display: flex; */
 }
 
-.skill-1{
+.skill-1 {
     margin-left: 10px;
 }
 
-.skill{
+.skill {
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.359);
     border-radius: 15px;
     width: 367px;
     height: 210px;
-    
+
 }
 
-.color{
+.color {
     color: rgba(117, 117, 117, 1);
     margin-bottom: 0%;
 }
-.color2{
+
+.color2 {
     color: rgba(179, 179, 179, 1);
     margin-top: 0px;
 }
-.pic{
+
+.pic {
     margin-bottom: 0%;
 }
-.skill-title{
+
+.skill-title {
     margin-bottom: 0%;
     font-size: 20px;
+}
+
+.column2{
+    padding: 120px 250px;
+    display: flex;
+    gap: 115px;
+    justify-content: space-between;
+    margin-left: 0%;
+    margin-right: 200px;
+    width: 50%;
+}
+
+
+
+.column input[type="text"], .column input[type="email"], .column textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    height: 70px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: rgba(214, 221, 237, 1);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.112);
+}
+.btn3{
+    height: 64px;
+    width: 497px;
+    height: 70px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.section3-title{
+    font-size: 97px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-right: 20px;
 }
