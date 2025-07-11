@@ -2,7 +2,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
-
+main section{
+    margin-top: 130px;
+}
 
 /* shared style */
 .inter-black{
@@ -31,6 +33,9 @@ main{
     width: 1140px;
     height: 350px;
     margin-top: 116px;
+}
+.text-center{
+    text-align: center;
 }
 
 /* header */
@@ -135,7 +140,7 @@ section div h3{
     font-size: 38px;
     font-weight: bold;
     color: #252432;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
 }
 
 /* about styles */
@@ -162,4 +167,52 @@ section div h3{
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
     margin-top: 0%;
+}
+/* review section */
+.skill-container{
+    display: flex;
+    gap:24px;
+}
+
+.skill-description{
+    padding: 0px ;
+    box-shadow: 0px 6px 50px 0px rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    margin-left: 0%;
+    margin-bottom: 10px;
+    margin-top: 0%;
+    text-align: left;
+
+}
+.logo{
+    /* display: flex; */
+}
+
+.skill-1{
+    margin-left: 10px;
+}
+
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.359);
+    border-radius: 15px;
+    width: 367px;
+    height: 210px;
+    
+}
+
+.color{
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 0%;
+}
+.color2{
+    color: rgba(179, 179, 179, 1);
+    margin-top: 0px;
+}
+.pic{
+    margin-bottom: 0%;
+}
+.skill-title{
+    margin-bottom: 0%;
+    font-size: 20px;
 }
